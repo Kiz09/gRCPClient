@@ -1,5 +1,8 @@
 package com.example.gRPCClient;
 
+import com.example.gRPCServer.HelloRequest;
+import com.example.gRPCServer.HelloResponse;
+import com.example.gRPCServer.HelloServiceGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import net.devh.boot.grpc.client.inject.GrpcClient;
